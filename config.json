@@ -11,6 +11,7 @@
     },
     "evmchains": [
         {
+<<<<<<< HEAD
             "ID": "C",
             "NAME": "Fuji (C-Chain)",
             "TOKEN": "AVAX",
@@ -154,6 +155,22 @@
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
             }
+=======
+           "ID": "NUM",
+           "NAME": "Numbers Testnet",
+           "TOKEN": "NUM",
+           "RPC": "https://testnetrpc.num.network",
+           "CHAINID": 10508,
+           "EXPLORER": "https://testnet.num.network",
+           "IMAGE": "https://i.imgur.com/6ZG2tIW.png",
+           "MAX_PRIORITY_FEE": "2000000000",
+           "MAX_FEE": "100000000000",
+           "DRIP_AMOUNT": 2000000000,
+           "RATELIMIT": {
+               "MAX_LIMIT": 1,
+               "WINDOW_SIZE": 1440
+           }
+>>>>>>> 4bfd6ac... feat: local tested Numbers faucet
         }
     ],
     "erc20tokens": [
@@ -170,6 +187,7 @@
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
             }
+<<<<<<< HEAD
         },
         {
             "ID": "DEXALOTC",
@@ -214,6 +232,8 @@
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
             }
+=======
+>>>>>>> 4bfd6ac... feat: local tested Numbers faucet
         }
     ]
 }
