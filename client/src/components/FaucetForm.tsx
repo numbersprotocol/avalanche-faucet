@@ -20,7 +20,7 @@ const FaucetForm = (props: any) => {
     const [chainConfigs, setChainConfigs] = useState<any>([])
     const [inputAddress, setInputAddress] = useState<string>("")
     const [address, setAddress] = useState<string | null>(null)
-    const [faucetAddress, setFaucetAddress] = useState<string | null>(null)
+    const [faucetAddress, setFaucetAddress] = useState<string | null>("0x4B230DaDe0237a8317C5d8b4Af92fd6b35e8820d")
     const [options, setOptions] = useState<DropdownOption[]>([])
     const [tokenOptions, setTokenOptions] = useState<DropdownOption[]>([]);
     const [balance, setBalance] = useState<number>(0)
